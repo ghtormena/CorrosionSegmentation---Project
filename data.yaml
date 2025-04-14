@@ -1,0 +1,8 @@
+path: /home/giovanna/Documentos/IC/Dataset_Unificado  # novo caminho raiz
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: corrosão
