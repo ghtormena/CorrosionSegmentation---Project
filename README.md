@@ -18,6 +18,6 @@ Subsequently, I split the dataset into training, validation, and test subsets, u
 
     15% for testing
 
-To prepare the data for training with the YOLOv8 segmentation model, I converted the annotations from COCO to YOLO format using coco2yolo.py. This script also automatically generated the data.yaml configuration file, which specifies dataset paths and class names for the YOLO training pipeline.
+To prepare the data for training with the YOLOv11 segmentation model, I converted the annotations from COCO to YOLO format using coco2yolo.py. This script also automatically generated the data.yaml configuration file, which specifies dataset paths and class names for the YOLO training pipeline.
 
 With the annotations converted and the dataset properly organized, the project is now ready to proceed with training a YOLO-based model for the segmentation and detection of pipeline corrosion.
